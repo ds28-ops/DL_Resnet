@@ -14,7 +14,7 @@ ResNets (or Residual Networks) are one of the most commonly used models for imag
 
 | Model       | Accuracy  |
 |-------------|----------:|
-| Our ResNet  |   %       |
+| Our ResNet  | 97.12%    |
 | ResNet18    | 88.56%    |
 
 ## Hyperparameters in Our Final Model's Architecture
@@ -22,20 +22,20 @@ ResNets (or Residual Networks) are one of the most commonly used models for imag
 | Parameter                     | Our Model         |
 |-------------------------------|-------------------|
 | Number of residual layers     | 4                 |
-| Number of residual blocks     | [3, 3, 2, 3]      |
+| Number of residual blocks     | [3, 3, 3, 3]      |
 | Convolutional kernel sizes    | [3, 3, 3, 3]      |
 | Shortcut kernel sizes         | [1, 1, 1, 1]      |
-| Number of channels            | 138, 100, 204, 190|
+| Number of channels            | 128, 100, 164, 200|
 | Average pool kernel size      | 4                 |
 | Batch normalization           | True              |
 | Data augmentation             | True              |
 | Data normalization            | True              |
 | Lookahead                     | False             |
-| Optimizer                     | AdaDelta          |
+| Optimizer                     | SGD               |
 | Learning rate (lr)            | 0.1               |
 | Lr scheduler                  | CosineAnnealingLR |
 | Weight decay                  | 0.0005            |
 | Batch size                    | 128               |
-| Number of workers             | 6                 |
-| Total number of Parameters    | 4,969,776         |
+| Number of workers             | 10                |
+| Total number of Parameters    | 4,978,810         |
 
