@@ -47,3 +47,8 @@ To train the models, the cells in each notebook should be run in order. The note
 | Batch size                    | 128                           |128                           |128                            |
 | Number of workers             | 14                            |10                            |14                             |
 | Total number of Parameters    | 4,978,810                     |4969776                       |4997074                        |
+
+
+## Everything about all our models
+This google sheet has all the architectures we tried and tested. 
+https://shorturl.at/tzAC5
