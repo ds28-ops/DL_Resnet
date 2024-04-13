@@ -19,23 +19,22 @@ ResNets (or Residual Networks) are one of the most commonly used models for imag
 
 ## Hyperparameters in Our Final Model's Architecture
 
-| Parameter                     | Our Model         |
-|-------------------------------|-------------------|
-| Number of residual layers     | 4                 |
-| Number of residual blocks     | [3, 3, 3, 3]      |
-| Convolutional kernel sizes    | [3, 3, 3, 3]      |
-| Shortcut kernel sizes         | [1, 1, 1, 1]      |
-| Number of channels            | 128, 100, 164, 200|
-| Average pool kernel size      | 4                 |
-| Batch normalization           | True              |
-| Data augmentation             | True              |
-| Data normalization            | True              |
-| Lookahead                     | False             |
-| Optimizer                     | SGD               |
-| Learning rate (lr)            | 0.1               |
-| Lr scheduler                  | CosineAnnealingLR |
-| Weight decay                  | 0.0005            |
-| Batch size                    | 128               |
-| Number of workers             | 10                |
-| Total number of Parameters    | 4,978,810         |
+| Parameter                     | Best Model 1 - ResNet26_97    | Best Model 2 - ResNet24_96   |
+|-------------------------------|-------------------------------|------------------------------|
+| Number of residual layers     | 4                             |4                             |
+| Number of residual blocks     | [3, 3, 3, 3]                  |[3, 3, 2, 3]                  |
+| Convolutional kernel sizes    | [3, 3, 3, 3]                  |[3, 3, 3, 3]                  |
+| Shortcut kernel sizes         | [1, 1, 1, 1]                  |[1, 1, 1, 1]                  |
+| Number of channels            | 128, 100, 164, 200            |138, 100, 204, 190            |
+| Average pool kernel size      | 4                             |4                             |
+| Batch normalization           | True                          |True                          |
+| Data augmentation             | Flip, Crop, Perspective, Auto |Flip, Crop, Perspective, Auto |
+| Data normalization            | True                          |True                          |
+| Optimizer                     | SGD + Momentum                |SGD + Momentum                |
+| Learning rate (lr)            | 0.1                           |0.1                           |
+| Lr scheduler                  | CosineAnnealingLR             | CosineAnnealingLR            |
+| Weight decay                  | 0.0005                        | 0.0005                       |
+| Batch size                    | 128                           |128                           |
+| Number of workers             | 14                            |10                            |
+| Total number of Parameters    | 4,978,810                     |4969776                       |
 
