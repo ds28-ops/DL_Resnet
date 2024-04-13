@@ -46,7 +46,7 @@ To train the models, the cells in each notebook should be run in order. The note
 | Weight decay                  | 0.0005                        |0.0005                        |0.0005                         |
 | Batch size                    | 128                           |128                           |128                            |
 | Number of workers             | 14                            |10                            |14                             |
-| Total number of Parameters    | 4,978,810                     |4969776                       |4997074                        |
+| Total number of Parameters    | 4,978,810                     |4,969,776                       |4,997,074                        |
 
 
 ## Everything about all our models
