@@ -29,7 +29,7 @@ To train the models, the cells in each notebook should be run in order. The note
 
 ## Hyperparameters in Our Final Model's Architecture
 
-| Parameter                     | Best Model 1 - ResNet26_97    | Best Model 2 - ResNet24_9684 |  Best Model 2 - ResNet24_9684 |
+| Parameter                     | Best Model 1 - ResNet26_97    | Best Model 2 - ResNet24_9684 |  Best Model 3 - ResNet24_9684 |
 |-------------------------------|-------------------------------|------------------------------|-------------------------------|
 | Number of residual layers     | 4                             |4                             |4                              |
 | Number of residual blocks     | [3, 3, 3, 3]                  |[3, 3, 2, 3]                  |[3, 3, 2, 3]                   |
