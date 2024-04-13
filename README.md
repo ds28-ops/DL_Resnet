@@ -8,7 +8,7 @@ ResNets (or Residual Networks) are one of the most commonly used models for imag
 
 ## Repo Schema
 * Models folder has all our pre-trained models. The good, bad, and the ugly.
-* Notebooks folder has the 3 notebooks  with the best performance. 
+* Notebooks folder has the 3 notebooks of models with slighly different architecture. 
 * Requirements.txt has all the required libraries
 * README, well, you know.
 
@@ -27,7 +27,7 @@ To train the models, the cells in each notebook should be run in order. The note
 
 * Performance of Official ResNet18 architecture.
 
-## Hyperparameters in Our Final Model's Architecture
+## Hyperparameters in Our Final Models' Architecture
 
 | Parameter                     | Best Model 1 - ResNet26_97    | Best Model 2 - ResNet24_9684 |  Best Model 3 - ResNet24_9684 |
 |-------------------------------|-------------------------------|------------------------------|-------------------------------|
