@@ -6,9 +6,10 @@ Building a ResNet architecture model from scratch to classify the CIFAR-10 datas
 ## Introduction
 ResNets (or Residual Networks) are one of the most commonly used models for image classification tasks. In this project, you will design and train your own ResNet model for CIFAR-10 image classification. Your goal will be to maximize accuracy on the CIFAR-10 benchmark while keeping the size of your ResNet model under budget. Model size, typically measured as the number of trainable parameters, is important when models need to be stored on devices with limited storage capacity, such as mobile devices.
 
-## Prerequisites
+## Run
+To train the models, the cells in each notebook should be run in order. The notebooks are available in the Notebooks folder.
 
-## Training
+
 
 ## Results
 
