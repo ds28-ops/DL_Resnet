@@ -19,7 +19,7 @@ ResNets (or Residual Networks) are one of the most commonly used models for imag
 
 ## Hyperparameters in Our Final Model's Architecture
 
-| Parameter                     | Best Model 1 - ResNet26_97    | Best Model 2 - ResNet24_96   |
+| Parameter                     | Best Model 1 - ResNet26_97    | Best Model 2 - ResNet24_9684 |
 |-------------------------------|-------------------------------|------------------------------|
 | Number of residual layers     | 4                             |4                             |
 | Number of residual blocks     | [3, 3, 3, 3]                  |[3, 3, 2, 3]                  |
