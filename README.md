@@ -18,18 +18,18 @@ To train the models, the cells in each notebook should be run in order. The note
 
 ## Results
 
-| Model         | Accuracy  |
-|---------------|-----------|
-| ResNet26_97   | 97.12%    |
-| ResNet24_9684 | 96.84%    |
-| ResNet24_96   | 96.57%    |
-| ResNet18*     | 88.56%    |
+| Model                                 | Accuracy  |
+|---------------------------------------|-----------|
+| ResNet26_best_model_on_test_dataset   | 97.12%    |
+| ResNet24_best_model_on_unseen         | 96.84%    |
+| ResNet24_96                           | 96.57%    |
+| ResNet18*                             | 88.56%    |
 
 * Performance of Official ResNet18 architecture.
 
 ## Hyperparameters in Our Final Models' Architecture
 
-| Parameter                     | Best Model 1 - ResNet26_97    | Best Model 2 - ResNet24_9684 |  Best Model 3 - ResNet24_9684 |
+| Parameter                     | ResNet26_best_model_on_test   | ResNet24_best_model_on_unseen| ResNet24_9684                 |
 |-------------------------------|-------------------------------|------------------------------|-------------------------------|
 | Number of residual layers     | 4                             |4                             |4                              |
 | Number of residual blocks     | [3, 3, 3, 3]                  |[3, 3, 2, 3]                  |[3, 3, 2, 3]                   |
@@ -46,7 +46,7 @@ To train the models, the cells in each notebook should be run in order. The note
 | Weight decay                  | 0.0005                        |0.0005                        |0.0005                         |
 | Batch size                    | 128                           |128                           |128                            |
 | Number of workers             | 14                            |10                            |14                             |
-| Total number of Parameters    | 4,978,810                     |4,969,776                       |4,997,074                        |
+| Total number of Parameters    | 4,978,810                     |4,969,776                     |4,997,074                      |
 
 
 ## Everything about all our models
